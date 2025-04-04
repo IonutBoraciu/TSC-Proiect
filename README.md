@@ -8,7 +8,7 @@
 
  ![Diagram Image](Images/diagram.png)
 
- ## Bill of materials(BOM)
+ ## Bill of materials (BOM)
  | 🛠 Component | 🔗 Link | 📄 Datasheet |
  |-------------|--------|------------|
  | 112A-TAAR-R03_ATTEND |[Comet](https://store.comet.srl.ro/Catalogue/Product/43497/) | [Datasheet](https://store.comet.bg/download-file.php?id=27596) |
