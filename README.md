@@ -104,19 +104,17 @@
   * Idle mode: ~50mA
   * Deep sleep: ~10mA
 ### 3. E-Paper Display 📺
-  * During content update: ~50mA to 100mA
+  * During content update: ~30-50mA
   * Idle (static content): ~0mA (only power used for maintaining the display)
 ### 4. BME688 🌡️
  * Active sensing: ~2.7mA
  * Idle mode: ~0.5mA (depends on the sleep settings)
 ### 5. SD Card 💾
- * Active read/write: ~50-100mA
- * Idle: ~10-20mA
+ * Typical: ~10-15 mA
 ### 6. RTC ⏰
-* Active mode: ~1µA to 10µA
-* Low-power mode: ~1µA (when the device is off)
+* Active mode: 1- 2 mA
 ### 7. MCP73831T ♻️🔋
-* Charging current: ~50-100mA
+*  Minimal power consumption
 ### 8. External NOR Flash 64MB 🎞️
 * Active read/write: ~10-20mA
 * Idle: <1mA
