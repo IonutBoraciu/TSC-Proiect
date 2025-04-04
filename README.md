@@ -170,6 +170,21 @@ Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
 * Pin 12 ( FLASH_CS) - chip select for flash memory
 * Pin 27 ( MISO)  - Master In Slave Out, used for reading data from components
 
+## E-Paper Display Control Signals
+* Pin 5 ( EPD_DC) - data control for E-Paper Display
+* Pin 19 ( EPD_3V3_C) - enable pin for EPD power
+* Pin 21 ( EPD_RST) - reset pin for E-Paper Display
+* Pin 26 ( EPD_BUSY) - indicates when E-Paper Display is busy
+
+## USB
+* Pin 13 ( USB_D-) + Pin 14 ( USB_D+) - differential data lines for USB comms
+
+## UART
+* Pin 24 ( RX) - UART receive pin
+* Pin 25 ( TX) - UART transmit pin
+
+## Others
+* Pin 23 ( IO_CHANGE)  - interrupt or status for external components
 
 
 
