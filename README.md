@@ -41,12 +41,12 @@
 
 # Hardware Functionality Description
 
-## 1. Battery 🔋
+### 1. Battery 🔋
  Model: CELLEVIA BATTERIES LP584174 <br>
  Specifications: 3.7V, 1800mAh  <br>
  Functionality: It is rechargeable battery, designed for portable electronic devices. It provides a stable power supply, high energy density, and a lightweight form factor. Ideal for IoT devices, wearables, embedded systems, and battery powered applications, it ensures reliable performance with a long cycle life.
 
- ## 2. ESP32-C6 📡
+ ### 2. ESP32-C6 📡
  Model: ESP32-C6-WROOM-1 <br>
  Specifications:
   * 2.4 GHz Wi-Fi 6 (802.11 ax)
@@ -55,12 +55,12 @@
   
   Functionality: The ESP32-C6-WROOM-1 is the central controller of the project, handling all communication, control, and processing
 
-  ## 3. E-Paper Display 📺
+  ### 3. E-Paper Display 📺
   Model: 7.5inch e-Paper V2 <br>
   Specifications: resolution : 800 x 480, weight ~ 44 g <br>
   Functionality: The 7.5-inch e-Paper V2 display provides a high contrast, low power visual output suitable for battery-powered applications. Unlike traditional displays, it retains content without power, making it ideal for low energy and always on applications.
 
- ## 4. BME688 🌡️
+ ### 4. BME688 🌡️
  Interface: I2C <br>
  Specifications:
   * Gas Sensor: Detects volatile organic compounds, carbon monoxide, hydrogen, and other gases
@@ -70,30 +70,68 @@
   
  Functionality: The BME688 is an advanced environmental sensing module, providing real-time monitoring of air quality, humidity, temperature, and pressure.
 
- ## 5. SD Card 💾
+ ### 5. SD Card 💾
  Interface: SPI <br>
  Functionality: it serves as expandable storage, allowing users to store a large collection of e-books, documents, and other files beyond the device's internal memory
 
- ## 6. RTC ⏰
+ ### 6. RTC ⏰
  Interface: I2C <br>
  Functionality: A real-time clock (RTC) keeps track of the correct time and date, even when the device is off. It helps manage power saving features, timestamps activities like reading progress, supports reminder functions, updates time-sensitive content, and ensures proper synchronization with other devices or platforms.
 
- ## 7. MCP73831T ♻️🔋
+ ### 7. MCP73831T ♻️🔋
  Interface: USB-C <br>
  Functionality: The MCP73831T is a compact lithium-ion and lithium-polymer battery charger IC. It features low power consumption, precharge and fast charge modes, thermal regulation, and overvoltage protection, making it ideal for portable devices.
 
- ## 8. External NOR Flash 64MB 🎞️
+ ### 8. External NOR Flash 64MB 🎞️
  Interface: SPI <br>
  Functionality:  non-volatile memory storage that provides 64MB of data storage. It's commonly used in embedded systems and devices for storing firmware, code, or other critical data, offering fast read speeds and reliable data retention even without power.
 
- ## 9. LDO Voltage Regulator ⚡
+ ### 9. LDO Voltage Regulator ⚡
  Functionality: voltage regulator that provides a stable output voltage with minimal difference between the input and output voltages.
 
- ## 10. Test Pads 📝
+ ### 10. Test Pads 📝
  Functionality: deubbing and testing outputs from certain components.
 
- ## 11. Qwiic ✅
+ ### 11. Qwiic ✅
  Functionality: easy addition of modules through I2C and SPI.
+
+ # Estimated Power Consumption 🔋
+
+ ### 1. Battery (CELLEVIA BATTERIES LP584174) 🔋
+  * Its power consumption depends on the load it is powering. The maximum discharge current would be around 1.8A (1800mAh)
+ ### 2. ESP32-C6 📡
+  * Wi-Fi transmission: ~200mA
+  * Idle mode: ~50mA
+  * Deep sleep: ~10mA
+### 3. E-Paper Display 📺
+  * During content update: ~50mA to 100mA
+  * Idle (static content): ~0mA (only power used for maintaining the display)
+### 4. BME688 🌡️
+ * Active sensing: ~2.7mA
+ * Idle mode: ~0.5mA (depends on the sleep settings)
+### 5. SD Card 💾
+ * Active read/write: ~50-100mA
+ * Idle: ~10-20mA
+### 6. RTC ⏰
+* Active mode: ~1µA to 10µA
+* Low-power mode: ~1µA (when the device is off)
+### 7. MCP73831T ♻️🔋
+* Charging current: ~50-100mA
+### 8. External NOR Flash 64MB 🎞️
+* Active read/write: ~10-20mA
+* Idle: <1mA
+ ### 9. LDO Voltage Regulator ⚡
+ * Idle mode: ~1-10mA (depends on the output load)
+### 10. Test Pads 📝
+* Minimal power consumption, essentially 0mA unless active signals are being tested.
+### 11. Qwiic ✅
+* Active communication: ~5-10mA (depends on the connected module)
+
+   
+
+
+
+ 
  
  
   
