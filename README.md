@@ -162,7 +162,7 @@ Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
 * Pin 20 ( SDA) - data line for I2C comms
 * Pin 21 ( SCL) - clock line for I2C comms
 
-## SPI
+## SPI 🛰️
 * Pin 4 ( SS_SD) - slave select for SD card
 * Pin 7 ( SCK) - Serial clock used for synchronizing SPI comms
 * Pin 10 ( MOSI) - Master Out Slave In, sending data to components
@@ -170,20 +170,20 @@ Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
 * Pin 12 ( FLASH_CS) - chip select for flash memory
 * Pin 27 ( MISO)  - Master In Slave Out, used for reading data from components
 
-## E-Paper Display Control Signals
+## E-Paper Display Control Signals 🖥️
 * Pin 5 ( EPD_DC) - data control for E-Paper Display
 * Pin 19 ( EPD_3V3_C) - enable pin for EPD power
 * Pin 21 ( EPD_RST) - reset pin for E-Paper Display
 * Pin 26 ( EPD_BUSY) - indicates when E-Paper Display is busy
 
-## USB
+## USB 🔌
 * Pin 13 ( USB_D-) + Pin 14 ( USB_D+) - differential data lines for USB comms
 
-## UART
+## UART 🔧
 * Pin 24 ( RX) - UART receive pin
 * Pin 25 ( TX) - UART transmit pin
 
-## Others
+## Others ⚙️
 * Pin 23 ( IO_CHANGE)  - interrupt or status for external components
 
 
