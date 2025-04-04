@@ -36,5 +36,5 @@
  | SI1308EDL-T1-GE3 | [Component Search Engine](https://componentsearchengine.com/part-view/SI1308EDL-T1-GE3/Vishay) | [Datasheet](https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-GE3.pdf) |
  | SJ | [GrabCAD](https://grabcad.com/library/solder-jumpers-1) | [Datasheet](https://www.youtube.com/watch?v=Z6ACqvqwDWE) |
  | USBLC6-2SC6Y | [SnapMagic](https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda) | [Datasheet](https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/datasheet/) |
- | | []() | [Datasheet]() |
- | | []() | [Datasheet]() |
+ | W25Q512JVEIQ | [SnapMagic](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda) | [Datasheet](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/datasheet/) |
+ | XC6220A331MR-G | [Component Search Engine](https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex) | [Datasheet](https://product.torexsemi.com/system/files/series/xc6220.pdf) |
