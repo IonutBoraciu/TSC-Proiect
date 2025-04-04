@@ -1,14 +1,14 @@
 # OpenBook, Boraciu Ionut-Sorin 335CA
 
-## Description 
+# Description 
 
  OpenBook is an open-source, affordable e-book reader designed for mass production. The project focuses on accessibility, cost efficiency, and user control, providing a customizable reading experience with open hardware and software.
 
- ## E-Book Reader Diagram
+ # E-Book Reader Diagram
 
  ![Diagram Image](Images/diagram.png)
 
- ## Bill of materials (BOM)
+ # Bill of materials (BOM)
  | 🛠 Component | 🔗 Link | 📄 Datasheet |
  |-------------|--------|------------|
  | 112A-TAAR-R03_ATTEND |[Comet](https://store.comet.srl.ro/Catalogue/Product/43497/) | [Datasheet](https://store.comet.bg/download-file.php?id=27596) |
@@ -38,3 +38,57 @@
  | USBLC6-2SC6Y | [SnapMagic](https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda) | [Datasheet](https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/datasheet/) |
  | W25Q512JVEIQ | [SnapMagic](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda) | [Datasheet](https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/datasheet/) |
  | XC6220A331MR-G | [Component Search Engine](https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex) | [Datasheet](https://product.torexsemi.com/system/files/series/xc6220.pdf) |
+
+# Hardware Functionality Description
+
+## 1. Battery 🔋
+ Model: CELLEVIA BATTERIES LP584174 <br>
+ Specifications: 3.7V, 1800mAh  <br>
+ Functionality: It is rechargeable battery, designed for portable electronic devices. It provides a stable power supply, high energy density, and a lightweight form factor. Ideal for IoT devices, wearables, embedded systems, and battery powered applications, it ensures reliable performance with a long cycle life.
+
+ ## 2. ESP32-C6 📡
+ Model: ESP32-C6-WROOM-1 <br>
+ Specifications:
+  * 2.4 GHz Wi-Fi 6 (802.11 ax)
+  *  Bluetooth® 5 (LE) with Long Range support
+  *  Zigbee and Thread(802.15.4) for low-power mesh networking  <br>
+  
+  Functionality: The ESP32-C6-WROOM-1 is the central controller of the project, handling all communication, control, and processing
+
+  ## 3. E-Paper Display 📺
+  Model: 7.5inch e-Paper V2 <br>
+  Specifications: resolution : 800 x 480, weight ~ 44 g <br>
+  Functionality: The 7.5-inch e-Paper V2 display provides a high contrast, low power visual output suitable for battery-powered applications. Unlike traditional displays, it retains content without power, making it ideal for low energy and always on applications.
+
+ ## 4. BME688 🌡️
+ Specifications:
+  * Gas Sensor: Detects volatile organic compounds, carbon monoxide, hydrogen, and other gases
+  * Humidity Sensor: 0–100% RH, accuracy ±3%
+  * Temperature Sensor: -40°C to 85°C, accuracy ±0.5°C
+  * Pressure Sensor: 300–1100 hPa, accuracy ±0.6 hPa <br>
+  
+ Functionality: The BME688 is an advanced environmental sensing module, providing real-time monitoring of air quality, humidity, temperature, and pressure.
+
+ ## 5. SD Card 💾
+ Functionality: it serves as expandable storage, allowing users to store a large collection of e-books, documents, and other files beyond the device's internal memory
+
+ ## 6. RTC ⏰
+ Functionality: A real-time clock (RTC) keeps track of the correct time and date, even when the device is off. It helps manage power saving features, timestamps activities like reading progress, supports reminder functions, updates time-sensitive content, and ensures proper synchronization with other devices or platforms.
+
+ ## 7. MCP73831T ♻️🔋
+ Functionality: The MCP73831T is a compact lithium-ion and lithium-polymer battery charger IC. It features low power consumption, precharge and fast charge modes, thermal regulation, and overvoltage protection, making it ideal for portable devices.
+
+ ## 8. External NOR Flash 64MB 🎞️
+ Functionality:  non-volatile memory storage that provides 64MB of data storage. It's commonly used in embedded systems and devices for storing firmware, code, or other critical data, offering fast read speeds and reliable data retention even without power.
+
+ ## 9. LDO Voltage Regulator ⚡
+ Functionality: voltage regulator that provides a stable output voltage with minimal difference between the input and output voltages.
+
+ ## 10. Test Pads 📝
+ Functionality: deubbing and testing outputs from certain components.
+
+ ## 11. Qwiic ✅
+ Functionality: easy addition of modules through I2C and SPI.
+ 
+ 
+  
