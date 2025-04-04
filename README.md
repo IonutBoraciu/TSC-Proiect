@@ -186,6 +186,13 @@ Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
 ## Others ⚙️
 * Pin 23 ( IO_CHANGE)  - interrupt or status for external components
 
+# Pins explanation
+
+* SPI (Serial Peripheral Interface) is used for high speed comms with the Flash and E-Paper Display.
+* I2C low speed comms with sensor ( RTC).
+* UART pins ( TX, RX) debugging and external serial comms.
+* Dedicated control pins ( EPD_BUSY, EPD_DC) ensure efficient E-Paper operation.
+
 
 
 
