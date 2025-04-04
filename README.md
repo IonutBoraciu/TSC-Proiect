@@ -61,6 +61,7 @@
   Functionality: The 7.5-inch e-Paper V2 display provides a high contrast, low power visual output suitable for battery-powered applications. Unlike traditional displays, it retains content without power, making it ideal for low energy and always on applications.
 
  ## 4. BME688 🌡️
+ Interface: I2C <br>
  Specifications:
   * Gas Sensor: Detects volatile organic compounds, carbon monoxide, hydrogen, and other gases
   * Humidity Sensor: 0–100% RH, accuracy ±3%
@@ -70,15 +71,19 @@
  Functionality: The BME688 is an advanced environmental sensing module, providing real-time monitoring of air quality, humidity, temperature, and pressure.
 
  ## 5. SD Card 💾
+ Interface: SPI <br>
  Functionality: it serves as expandable storage, allowing users to store a large collection of e-books, documents, and other files beyond the device's internal memory
 
  ## 6. RTC ⏰
+ Interface: I2C <br>
  Functionality: A real-time clock (RTC) keeps track of the correct time and date, even when the device is off. It helps manage power saving features, timestamps activities like reading progress, supports reminder functions, updates time-sensitive content, and ensures proper synchronization with other devices or platforms.
 
  ## 7. MCP73831T ♻️🔋
+ Interface: USB-C <br>
  Functionality: The MCP73831T is a compact lithium-ion and lithium-polymer battery charger IC. It features low power consumption, precharge and fast charge modes, thermal regulation, and overvoltage protection, making it ideal for portable devices.
 
  ## 8. External NOR Flash 64MB 🎞️
+ Interface: SPI <br>
  Functionality:  non-volatile memory storage that provides 64MB of data storage. It's commonly used in embedded systems and devices for storing firmware, code, or other critical data, offering fast read speeds and reliable data retention even without power.
 
  ## 9. LDO Voltage Regulator ⚡
