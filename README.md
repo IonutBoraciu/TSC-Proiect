@@ -99,7 +99,7 @@
 
  ### 1. Battery (CELLEVIA BATTERIES LP584174) 🔋
   * Its power consumption depends on the load it is powering. The maximum discharge current would be around 1.8A (1800mAh)
- ### 2. ESP32-C6 📡
+### 2. ESP32-C6 📡
   * Wi-Fi transmission: ~200mA
   * Idle mode: ~50mA
   * Deep sleep: ~10mA
@@ -120,7 +120,7 @@
 ### 8. External NOR Flash 64MB 🎞️
 * Active read/write: ~10-20mA
 * Idle: <1mA
- ### 9. LDO Voltage Regulator ⚡
+### 9. LDO Voltage Regulator ⚡
  * Idle mode: ~1-10mA (depends on the output load)
 ### 10. Test Pads 📝
 * Minimal power consumption, essentially 0mA unless active signals are being tested.
