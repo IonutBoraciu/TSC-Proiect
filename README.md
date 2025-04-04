@@ -125,7 +125,7 @@
 ### 11. Qwiic ✅
 * Active communication: ~5-10mA (depends on the connected module)
 
-# Total estimated power consumtion ( asumming wifi active) 🔋
+# Total estimated power consumtion ( assuming wifi active) 🔋
 
  | 🛠 Component | Power estimation 🔋
  |-------------|--------|
