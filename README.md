@@ -141,6 +141,38 @@
 
 Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
 
+# Estimated battery life
+
+**Battery life = 1800 mAh / 309.7 mA = 5.81 hours**
+
+# ESP32-C6 Pin Usage
+
+## Power connections 🔋
+* Pin 2 ( 3V3) - provides 3.3V to the ESP32-C6
+* Ground ( bottom-right pin) - provides ground connection
+
+## Reset and Boot 🔁
+* Pin 3 ( Reset) - manual reset pin
+* Pin 15 ( IO/BOOT) - boot mode selection, pulled down by a 10K resistor
+
+## I2C 📡
+* Pin 8 ( INT_RTC) - interrupt signal from RTC
+* Pin 16 ( RTC_RST) - reset for RTC
+* Pin 18 ( I2C_PW) - power enable signal for I2C devices
+* Pin 20 ( SDA) - data line for I2C comms
+* Pin 21 ( SCL) - clock line for I2C comms
+
+## SPI
+* Pin 4 ( SS_SD) - slave select for SD card
+* Pin 7 ( SCK) - Serial clock used for synchronizing SPI comms
+* Pin 10 ( MOSI) - Master Out Slave In, sending data to components
+* Pin 11 ( EPD_CS) - chip select for e-paper display
+* Pin 12 ( FLASH_CS) - chip select for flash memory
+* Pin 27 ( MISO)  - Master In Slave Out, used for reading data from components
+
+
+
+
 
    
 
