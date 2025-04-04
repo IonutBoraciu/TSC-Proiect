@@ -125,6 +125,23 @@
 ### 11. Qwiic ✅
 * Active communication: ~5-10mA (depends on the connected module)
 
+# Total estimated power consumtion ( asumming wifi active) 🔋
+
+ | 🛠 Component | Power estimation 🔋
+ |-------------|--------|
+ | ESP32-C6 | 200 mA |
+ | E-Paper Display | 50 mA |
+ | BME688 | 2.7 mA |
+ | SD Card | 15 mA |
+ | RTC | 2 mA |
+ | External NOR Flash | 20 mA |
+ | LDO Voltage Regulator | 10 mA |
+ | Qwiic | 10 mA |
+
+
+Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
+
+
    
 
 
