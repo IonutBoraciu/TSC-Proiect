@@ -14,6 +14,7 @@
 7. [Estimated battery life](#estimated-battery-life)
 8. [ESP32-C6 Pin Usage](#esp32-c6-pin-usage)
 9. [Pins explanation](#pins-explanation)
+10. [Final Product](#final-product)
 
  # E-Book Reader Diagram
 
