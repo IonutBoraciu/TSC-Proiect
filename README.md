@@ -205,8 +205,8 @@ Total = 200mA + 50mA + 2.7mA + 15mA + 2mA + 20mA + 10mA + 10mA = 309.7mA
 * Dedicated control pins ( EPD_BUSY, EPD_DC) ensure efficient E-Paper operation.
 
 # Final Product
- ![3D Image](Images/openBook_3D.png)
- ![Exploaded Image](Images/exploaded_viewv1.png)
+ ![3D Image](Images/openbook_3D.png)
+ ![Exploaded Image](Images/exploaded_view.png)
 
 
    
