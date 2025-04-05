@@ -5,8 +5,15 @@
  OpenBook is an open-source, affordable e-book reader designed for mass production. The project focuses on accessibility, cost efficiency, and user control, providing a customizable reading experience with open hardware and software.
 
 # Table of contents
-
-- [Bill of materials (BOM)](#bill-of-materials-bom)
+1. [Description](#description)
+2. [E-Book Reader Diagram](#e-book-reader-diagram)
+3. [Bill of materials (BOM)](#bill-of-materials-bom)
+4. [Hardware Functionality Description](#hardware-functionality-description)
+5. [Estimated Power Consumption 🔋](#estimated-power-consumption-)
+6. [Total estimated power consumtion ( assuming wifi active) 🔋](#total-estimated-power-consumtion--assuming-wifi-active-)
+7. [Estimated battery life](#estimated-battery-life)
+8. [ESP32-C6 Pin Usage](#esp32-c6-pin-usage)
+9. [Pins explanation](#pins-explanation)
 
  # E-Book Reader Diagram
 
